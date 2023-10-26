@@ -32,13 +32,17 @@
 	padding: 0;
 	list-style-type: none;
 	float: left;
-	width: 20%;
+	width: 33%;
 	
 }
 
 #menu{
 	font-size: 13px;
 }
+
+#productContainer{
+	padding-bottom: 150px;
+} 
  
 /* **********************************************************/ 
 

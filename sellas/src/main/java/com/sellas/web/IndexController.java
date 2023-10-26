@@ -8,17 +8,12 @@ public class IndexController {
 
 	@GetMapping("/")
 	public String index() {
-		return "index";
+		return "main";
 	}
 
 	@GetMapping("default")
-	public String gogo() {
+	public String basic() {
 		return "default";
 	}	
-	
-	@GetMapping("help")
-	public String help() {
-		return "help";
-	}
-	
+
 }
